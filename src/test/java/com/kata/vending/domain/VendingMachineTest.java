@@ -1,4 +1,4 @@
-package com.kata.vending;
+package com.kata.vending.domain;
 
 import com.kata.vending.domain.VendingMachine;
 import com.kata.vending.service.VendingService;
@@ -10,7 +10,7 @@ import static org.junit.jupiter.api.Assertions.*;
 import static org.mockito.Mockito.*;
 
 @TestInstance(TestInstance.Lifecycle.PER_CLASS)
-class MainTest {
+class VendingMachineTest {
 
     private VendingMachine vendingMachine = new VendingMachine();
     private VendingService vendingService = mock(VendingService.class);
